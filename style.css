@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: "Merriweather Sans";
+}
+
+body {
+    background-color: #22212C;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 348px;
+    height: 292px;
+    left: 40px;
+    top: 40px; 
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle1 > h1 {
+    position: absolute;
+    width: 196px;
+    height: 26px;
+    left: 80px;
+    top: 190px;
+    bottom: 76px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+    color: #837E9F;
+}
+
+.rectangle1 h2 {
+    position: absolute;
+    width: 128px;
+    height: 17px;
+    left: 115px;
+    top: 226px;
+    bottom: 49px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+}
+
+
+.ellipse1 > img {
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    width: 128px;
+    height: 128px;
+    left: 110px;
+    right: 110px;
+    top: 32px;
+    bottom: 132px;
+    object-fit: cover;
+    border: 2px solid #0400ff;
+    border-radius: 50%;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle2 > h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 30px;
+    top: 30px;
+    right: 801px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    white-space: nowrap;
+    
+}
+
+.rectangle2 h2 {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    left: 851px;
+    top: 34px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 348px;
+    height: 255px;
+    left: 40px;
+    top: 362px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle3 > .brasil > img {
+    position: absolute;
+    left: 43px;
+    right: 287px;
+    top: 31px;
+    bottom: 295px;
+}
+
+.rectangle3 > .brasil > h1 {
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 84px;
+    top: 34px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+
+}
+
+.rectangle3 > .github > img {
+    position: absolute;
+    left: 43px;
+    right: 287px;
+    top: 74px;
+    bottom: 253px;
+}
+
+.rectangle3 > .github > h1 {
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 84px;
+    top: 78px;
+    bottom: 255px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+}
+
+.rectangle3 > .email > img {
+    position: absolute;
+    left: 43px;
+    right: 287px;
+    top: 112px;
+    bottom: 208px;
+}
+
+.rectangle3 > .email > h1 {
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 84px;
+    top: 116px;
+    bottom: 210px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+
+}
+
+.rectangle3 > .linkedin > img {
+    position: absolute;
+    left: 43px;
+    right: 287px;
+    top: 154px;
+    bottom: 163px;
+}
+
+.rectangle3 > .linkedin > h1 {
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 84px;
+    top: 160px;
+    bottom: 178px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+    white-space: nowrap;
+
+}
+
+.rectangle3 > .faculdade > img {
+position: absolute;
+    left: 43px;
+    right: 287px;
+    top: 195px;
+    bottom: 105px;
+}
+
+.rectangle3 > .faculdade > h1 {
+    position: absolute;
+    width: 35px;
+    height: 16px;
+    left: 84px;
+    top: 201px;
+    bottom: 99px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #837E9F;
+
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 348px;
+    height: 208px;
+    left: 40px;
+    top: 653px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle4 > h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 20px;
+    top: 30px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+}
+
+.rectangle4 > .javascript {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 30px;
+    top: 76px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .javascript > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle4 > .html {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 131px;
+    top: 76px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .html > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle4 > .css {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 232px;
+    top: 76px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .css > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle4 > .github {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 30px;
+    top: 115px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .github > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle4 > .git {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 131px;
+    top: 115px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .git > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle4 > .nodejs {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 232px;
+    top: 115px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .nodejs > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle4 > .reactjs {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 30px;
+    top: 155px;
+
+    background: #CB92B1;
+    border-radius: 30px;
+}
+
+.rectangle4 > .reactjs > h2 {
+    position: absolute;
+    width: 86px;
+    height: 11px;
+    left: 0.5px;
+    top: 6px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+.rectangle5 {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 150px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle5 > h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 30px;
+    top: 30px;
+    right: 801px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    
+}
+
+.rectangle5 h2 {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    left: 851px;
+    top: 34px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+
+}
+
+.rectangle6 {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 260px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle6 > h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 30px;
+    top: 30px;
+    right: 801px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    
+}
+
+.rectangle6 h2 {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    left: 851px;
+    top: 34px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 370px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle7 > h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 30px;
+    top: 30px;
+    right: 801px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    
+}
+
+.rectangle7 h2 {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    left: 851px;
+    top: 34px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 952px;
+    height: 86px;
+    left: 448px;
+    top: 480px;
+    
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.rectangle8 > h1 {
+    position: absolute;
+    width: 121px;
+    height: 26px;
+    left: 30px;
+    top: 30px;
+    right: 801px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+    white-space: nowrap;
+    
+}
+
+.rectangle8 h2 {
+    position: absolute;
+    width: 71px;
+    height: 18px;
+    left: 851px;
+    top: 34px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #837E9F;
+
+}
